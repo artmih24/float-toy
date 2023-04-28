@@ -1,0 +1,113 @@
+body {
+    margin: 50px;
+    font: 14px/20px sans-serif;
+    cursor: default;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  p {
+    margin: 30px 0;
+  }
+
+  h2 {
+    margin: 60px 0 30px 0;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-size: 20px;
+    line-height: 14px;
+    width: 100%;
+  }
+
+  td {
+    font: inherit;
+    padding: 0;
+    text-align: center;
+  }
+
+  td.sign { background: #BBF; }
+  td.exponent { background: #BFB; }
+  td.fraction { background: #FBB; }
+
+  td.sign.hover { background: #99D; }
+  td.exponent.hover { background: #9D9; }
+  td.fraction.hover { background: #D99; }
+
+  .input td {
+    border: 1px solid #000;
+    padding: 5px 2px;
+    font-size: 14px;
+  }
+
+  .zerox-col {
+    vertical-align: bottom;
+  }
+
+  .zerox {
+    height: 26px;
+    line-height: 26px;
+  }
+
+  .output-col {
+    width: 100%;
+    vertical-align: bottom;
+  }
+
+  .hex-col {
+    width: 100%;
+  }
+
+  .output {
+    font: inherit;
+    padding: 5px;
+    margin: -5px;
+    border: 0;
+    outline: none;
+    width: 100%;
+    min-width: 200px;
+    background: none;
+    height: 26px;
+    line-height: 26px;
+    box-sizing: content-box;
+  }
+
+  .output:hover, .output:focus {
+    background: rgba(0, 0, 0, 0.066);
+  }
+
+  .help {
+    height: 50px;
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 3px;
+    white-space: nowrap;
+  }
+
+  .help sup {
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 50px;
+  }
+
+  .help span {
+    padding: 3px;
+    margin: -3px;
+  }
+
+  td.nibble {
+    font-size: 10px;
+    line-height: 6px;
+    border: none;
+  }
+
+  td.dark.nibble {
+    background: #DDD;
+  }
+
+  span.sign { background: #DDF; }
+  span.exponent { background: #DFD; }
+  span.fraction { background: #FDD; }

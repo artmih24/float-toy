@@ -1,0 +1,16 @@
+directories:
+  output: ./build
+  buildResources: build
+appId: electron-builder.%npm_package_name%
+win:
+  publish:
+    - provider: generic
+      url: https://natribu.org
+linux:
+  target:
+    - deb
+  publish:
+    - provider: generic
+      url: https://natribu.org
+files: []
+electronVersion: 8.2.0
